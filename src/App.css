@@ -16,3 +16,46 @@ body {
   font-size: 40px;
   font-weight: 600;
 }
+
+.tv-shows-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.tv-show-card {
+  padding: 5px 10px;
+  border: 1px solid #bebebe;
+}
+
+.tv-show-title {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tv-show-img {
+  width: 182px;
+  height: 268px;
+}
+
+/* general link style */
+a {
+  color: white;
+  cursor: pointer;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
