@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 
-import tvShows from './mocks/tv-shows';
+import {tvShowsWatched, tvShowsWatching} from './mocks';
 
 import Header from './Header';
 import TVShowsBox from './TVShowsBox';
@@ -11,7 +11,8 @@ function App() {
   return (
     <div>
       <Header />
-      <TVShowsBox tvShows={tvShows} />
+      <TVShowsBox title='Currently Watching' tvShows={tvShowsWatching} />
+      <TVShowsBox title='Watched' tvShows={tvShowsWatched} />
     </div>
   );
 }

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Image from './Image';
+
 import {getImdbLink, getNetflixLink} from './helpers/linkUtils';
 
 const TVShowCard = (props) => {
@@ -14,7 +16,7 @@ const TVShowCard = (props) => {
                 </a>
             </div>
             <a href={getImdbLink(imdbId)} target='_blank' rel='noopener noreferrer'>
-                <img className='tv-show-img' src={img} alt={title} />
+                <Image className='tv-show-img' src={img} alt={title} />
             </a>
         </div>
     );

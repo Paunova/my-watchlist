@@ -19,13 +19,29 @@ body {
 
 .tv-shows-box {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.tv-shows-box-title {
+  color: white;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-bottom: 30px;
+}
+
+.tv-shows-box-content {
+  display: flex;
   align-items: center;
 }
 
 .tv-show-card {
+  margin: 5px;
   padding: 5px 10px;
   border: 1px solid #bebebe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .tv-show-title {
@@ -36,6 +52,16 @@ body {
 .tv-show-img {
   width: 182px;
   height: 268px;
+}
+
+.photo-holder {
+  width: 182px;
+  height: 268px;
+  display: flex;
+}
+
+.photo-holder-img {
+  margin: auto;
 }
 
 /* general link style */
