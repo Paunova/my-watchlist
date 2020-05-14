@@ -1,13 +1,4 @@
-/*
-    {
-        title: '',
-        imdbId: '',
-        netflixId: '',
-        img: ''
-    }
-*/
-
-const tvShows = [
+const tvShowsWatched = [
     {
         title: 'Abstract: The Art of Design',
         imdbId: 'tt6333098',
@@ -34,4 +25,4 @@ const tvShows = [
     }
 ];
 
-export default tvShows;
+export default tvShowsWatched;
